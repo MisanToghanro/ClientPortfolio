@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import projects from "../data/projects";
+import projects from "../../data/projects";
 import GalleryDetail from "@/Components/Gallery/GalleryDetail";
 import Link from "next/link";
 

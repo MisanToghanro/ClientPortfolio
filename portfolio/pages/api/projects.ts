@@ -1,7 +1,7 @@
 
 import type { NextApiRequest, NextApiResponse } from "next";
 import { ProjectProps } from "@/interfaces";
-import projects from "../data/projects";
+import projects from "../../data/projects";
 
 
 
@@ -11,3 +11,4 @@ export default function handler(
 ) {
   res.status(200).json( projects );
 }
+ 
