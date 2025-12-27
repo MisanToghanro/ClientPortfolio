@@ -46,7 +46,7 @@ const Footer = () => {
             <FaInstagram />
           </a>
                         <a
-                        href="#"
+                        href="mailto:wgraphics001@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-[#657A97] transition"

@@ -11,7 +11,7 @@ interface GalleryCardProps {
 const GalleryCard :React.FC<GalleryCardProps> = ({ project }) => {
   return (
     <Link
-      href={`/projects/${project.id}`}
+      href={`/Gallerydetails/${project.id}`}
       className="group block rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-lg transition-all duration-300"
     >
       {/* Media */}

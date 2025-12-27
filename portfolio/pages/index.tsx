@@ -52,7 +52,7 @@ const Home = () => {
               <FaInstagram />
             </a>
               <a
-              href="#"
+              href="mailto:wgraphics001@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#657A97] transition"
@@ -64,6 +64,7 @@ const Home = () => {
 
         {/* Right Column: Profile / Hero Image */}
                {/* Image */}
+      
                <div className="flex-1 relative">
                  <div className="absolute -top-4 -left-4 w-full h-full bg-blue-900 rounded-xl opacity-10"></div>
                  
