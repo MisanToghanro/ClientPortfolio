@@ -21,7 +21,7 @@ const GalleryDetailPage = () => {
   <div className="min-h-screen">
 <Link 
   href="/Projects"
-  className="inline-flex items-center gap-2 px-4 py-2 rounded-md font-medium text-[#07153B] 
+  className="inline-flex items-center gap-2 px-4 py-2 mt-8 ml-4 md:ml-8 rounded-md font-medium text-[#07153B] 
              bg-white border border-[#657A97]/20 shadow-sm transition-all duration-300 
              hover:shadow-md hover:bg-[#07153B] hover:text-white group"
 > 
