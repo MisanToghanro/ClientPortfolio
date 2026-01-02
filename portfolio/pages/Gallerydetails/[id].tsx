@@ -20,8 +20,15 @@ const GalleryDetailPage = () => {
   return (
   <div className="min-h-screen">
      <Link href={`/Projects`}
-      className="font-medium text-md shadow-md shadow-[#9bf0e6] rounded-md px-4 py-2 m-4 hover:scale-105"> 
-      go back</Link>
+      className="font-medium text-md shadow-md rounded-md px-4 py-2  hover:scale-105"> 
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+</svg>
+
+      </span>
+      Back to gallery
+      </Link>
 <GalleryDetail project={project} />;
   </div>
   )

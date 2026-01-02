@@ -21,12 +21,12 @@ const Header = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/assets/Logo.jpeg"
+            src="/assets/Logo2.jpeg"
             alt="portfolio logo"
             width={90}
             height={30}
             priority
-            className="rounded-sm object-contain transition-all duration-300 ease-out hover:scale-105 hover:opacity-90"
+            className="rounded-sm object-contain transition-all duration-300 ease-out hover:scale-105 hover:opacity-90 bg-white"
           />
         </Link>
 
@@ -53,7 +53,7 @@ const Header = () => {
         <div className="flex justify-between items-center px-5 py-4">
           <Link href="/" className="flex items-center">
             <Image
-              src="/assets/Logo.jpeg"
+              src="/assets/Logo2.jpeg"
               alt="portfolio logo"
               width={90}
               height={30}
