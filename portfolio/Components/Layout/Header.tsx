@@ -21,7 +21,7 @@ const Header = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/assets/Logo2.jpeg"
+            src="/assets/Logo.jpeg"
             alt="portfolio logo"
             width={90}
             height={30}
@@ -53,7 +53,7 @@ const Header = () => {
         <div className="flex justify-between items-center px-5 py-4">
           <Link href="/" className="flex items-center">
             <Image
-              src="/assets/Logo2.jpeg"
+              src="/assets/Logo.jpeg"
               alt="portfolio logo"
               width={90}
               height={30}

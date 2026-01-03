@@ -8,9 +8,18 @@ const projects: ProjectProps[] = [
     category: "Brand Identity",
     mediaType: "image",
     media: [
-      "/assets/projects/lighthouse-1.jpg",
-      "/assets/projects/lighthouse-2.jpg",
-      "/assets/projects/lighthouse-3.jpg",
+      "/assets/lighthouse/lighthouse1.jpeg",
+      "/assets/lighthouse/lighthouse2.jpeg",
+      "/assets/lighthouse/lighthouse3.jpeg",
+      "/assets/lighthouse/lighthouse4.jpeg",
+      "/assets/lighthouse/lighthouse5.jpeg",
+      "/assets/lighthouse/lighthouse6.jpeg",
+      "/assets/lighthouse/lighthouse7.jpeg",
+      "/assets/lighthouse/lighthouse8.jpeg",
+      "/assets/lighthouse/lighthouse9.jpeg",
+      "/assets/lighthouse/lighthouse10.jpeg",
+      "/assets/lighthouse/lighthouse11.jpeg",
+
     ],
     thumbnail: "/assets/Project1.jpeg",
     challenge:
@@ -49,19 +58,19 @@ const projects: ProjectProps[] = [
       "Information Architecture",
     ],
   },
-  {
-    id: 4,
-    title: "Light House Renewable Energy",
-    category: "Brand Identity",
-    mediaType: "image",
-    thumbnail: "/assets/Project4.jpeg",
-    media: "/assets/Project4.jpeg",
-    challenge:
-      "To create a modern, high-contrast visual identity for a green energy provider.",
-    solution:
-      "I designed a minimalist logo combining the ideas of light and power, using a Solar Yellow, White, and Black palette for clarity and strength.",
-    services: ["Logo Design", "Brand Identity", "Visual Strategy"],
-  },
+{
+  id: 4,
+  title: "Flock of Christ Mission Thanksgiving Service Flyer",
+  category: "Event Promotional Design",
+  mediaType: "image",
+  media: "/assets/Project4.jpeg",
+  thumbnail: "/assets/Project4.jpeg",
+  challenge:
+    "To design a vibrant and welcoming flyer that clearly communicates a thanksgiving service while capturing a celebratory, faith-filled atmosphere.",
+  solution:
+    "I applied a warm, harvest-inspired color palette with bold typography to create visual impact and ensure key event details are easy to read at a glance.",
+  services: ["Event Flyer Design", "Typography", "Visual Storytelling"],
+},
   {
     id: 5,
     title: "Seasonal Brand Engagement Flyer (November Series)",
@@ -162,7 +171,7 @@ const projects: ProjectProps[] = [
     title: `December "Final Chapter" Animated Campaign`,
     category: "Animated Seasonal Motion Graphics",
     mediaType: "video",
-    thumbnail: "/assets/projectVid12.mp4",
+    thumbnail: "/assets/project12.jpeg",
     media: "/assets/projectVid12.mp4",
     challenge:
       "To create an immersive animated holiday campaign.",
